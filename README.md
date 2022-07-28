@@ -7,14 +7,14 @@ This web app recognizes animals from their images using machine learning
 * It transforms the image input(whatever the dimensions) as grayscale, then hog transformation and outputs probabilities of the animal in the picture.
 * Optimized svm, knn, sgd and logistic regression, even verifying learning curves to reach the best model.
 * Built a client facing API using flask. 
-* Import an image. Get the animal in it. Try it !!!
+* Import an image. Get the animal in it. [Try it !!!](https://animal-image-processing.herokuapp.com/)
 
 
 ## Code and Resources Used 
 **Python Version:** 3.10  
 **Packages:** pandas, numpy, scikit-learn, scikit-image, scipy, flask, pickle, matplotlib, os, re, glob          
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```   
-**Heroku Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
+**Heroku Productionization:** https://animal-image-processing.herokuapp.com/
 
 ## Animal Types
 The following animals were in the data:
