@@ -54,4 +54,5 @@ The svm model outperformed the other approaches on the test and validation sets 
 CKS = Cohen Kappa Score. >50% is usually good.
 
 ## Productionization 
-In this step, I built a flask API endpoint that was hosted on heroku. The API webpage takes in a photo of an animal and outputs the animal that is in the photo. 
+In this step, I built a flask API endpoint that was hosted on heroku. The API webpage takes in a photo of an animal and outputs the animal that is in the photo.        
+https://animal-image-processing.herokuapp.com/
