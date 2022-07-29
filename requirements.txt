@@ -4,3 +4,4 @@ pandas == 1.4.3
 scipy == 1.8.1
 scikit-learn == 1.1.1
 scikit-image == 0.19.3
+gunicorn == 20.1.0

@@ -22,8 +22,8 @@ UPLOAD_PATH = os.path.join(BASE_PATH, 'static/upload/')
 MODEL_PATH = os.path.join(BASE_PATH, 'static/models/')
 
 ## -------------------- Load Models -------------------
-model_svc_path = os.path.join(MODEL_PATH, 'static/models/dsa_image_classification_svc.pickle')
-scaler_path = os.path.join(MODEL_PATH, 'static/models/dsa_scaler.pickle')
+model_svc_path = os.path.join(MODEL_PATH, 'dsa_image_classification_svc.pickle')
+scaler_path = os.path.join(MODEL_PATH, 'dsa_scaler.pickle')
 model_svc = pickle.load(open(model_svc_path, 'rb'))
 scaler = pickle.load(open(scaler_path, 'rb'))
 
