@@ -1,5 +1,12 @@
 # Animal-Recognition-Image-Processing
 
+<p align="center">
+  <a href="https://animal-image-processing.herokuapp.com/">
+    <img src="picture11.png" alt="Logo" width=600 height=300>
+  </a>
+
+</p>
+
 This web app recognizes animals from their images using machine learning.
 
 * Created a tool that recognizes an animal(>80% precision) when a user imports an image into it.
